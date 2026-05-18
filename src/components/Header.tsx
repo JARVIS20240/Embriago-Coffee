@@ -24,10 +24,10 @@ export default function Header() {
 
   return (
     <header
-      className="fixed top-6 left-1/2 -translate-x-1/2 w-[90%] max-w-5xl rounded-full bg-[#3B2B20]/40 backdrop-blur-xl border border-white/10 shadow-2xl z-50 px-6 py-3 flex justify-between items-center text-[#F9F6F0]"
+      className="fixed top-4 md:top-6 left-1/2 -translate-x-1/2 w-[95%] md:w-[90%] max-w-5xl rounded-full bg-[#3B2B20]/40 backdrop-blur-xl border border-white/10 shadow-2xl z-50 px-4 md:px-6 py-2 md:py-3 flex justify-between items-center text-[#F9F6F0]"
     >
       {/* Logo */}
-      <a href="#" className="font-serif text-xl font-bold tracking-tight">
+      <a href="#" className="font-serif text-lg md:text-xl font-bold tracking-tight truncate mr-2">
         {businessData.name}
       </a>
 
@@ -42,7 +42,7 @@ export default function Header() {
       {/* Action Button */}
       <a 
         href="#location" 
-        className="px-5 py-2 bg-[#D4A373] text-[#3B2B20] rounded-full font-medium text-sm hover:bg-[#D4A373]/90 transition-colors"
+        className="px-4 py-1.5 md:px-5 md:py-2 bg-[#D4A373] text-[#3B2B20] rounded-full font-medium text-xs md:text-sm hover:bg-[#D4A373]/90 transition-colors whitespace-nowrap flex-shrink-0"
       >
         Visit Now
       </a>

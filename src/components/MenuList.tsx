@@ -36,7 +36,7 @@ export default function MenuList() {
           {allItems.map((item, index) => (
             <div 
               key={item.id} 
-              className="min-w-[320px] md:min-w-[400px] bg-[#efe7dd] rounded-[2.5rem] p-4 flex-shrink-0 snap-start"
+              className="w-[85vw] sm:w-[320px] md:w-[400px] flex-shrink-0 bg-[#efe7dd] rounded-[2.5rem] p-4 snap-start"
             >
               {/* Image Container */}
               <div className="relative h-64 mb-6 rounded-[2rem] overflow-hidden">
