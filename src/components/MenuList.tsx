@@ -36,10 +36,10 @@ export default function MenuList() {
           {allItems.map((item, index) => (
             <div
               key={item.id}
-              className="min-w-[320px] md:min-w-[400px] bg-[#efe7dd] rounded-[2.5rem] p-4 flex-shrink-0 snap-start"
+              className="w-[280px] min-w-[280px] sm:w-[320px] sm:min-w-[320px] md:w-[400px] md:min-w-[400px] h-auto flex flex-col bg-[#efe7dd] rounded-[2.5rem] p-4 flex-shrink-0 snap-start"
             >
               {/* Image Container */}
-              <div className="relative h-64 mb-6 rounded-[2rem] overflow-hidden">
+              <div className="relative h-64 mb-6 rounded-[2rem] overflow-hidden flex-shrink-0">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={defaultImages[index % defaultImages.length]}
@@ -54,10 +54,12 @@ export default function MenuList() {
               </div>
 
               {/* Content */}
-              <div className="px-4 pb-4">
-                <span className="inline-block px-4 py-1.5 bg-white/60 rounded-full text-xs font-bold uppercase tracking-wider text-[#3B2B20] mb-4">
-                  {item.category}
-                </span>
+              <div className="px-4 pb-4 flex flex-col flex-grow">
+                <div>
+                  <span className="inline-block px-4 py-1.5 bg-white/60 rounded-full text-xs font-bold uppercase tracking-wider text-[#3B2B20] mb-4">
+                    {item.category}
+                  </span>
+                </div>
 
                 <h3 className="font-serif text-3xl font-bold text-[#3B2B20] mb-3">{item.name}</h3>
 
@@ -68,8 +70,8 @@ export default function MenuList() {
                   <span className="text-sm text-[#3B2B20]/60 ml-2 font-medium">(120)</span>
                 </div>
 
-                <div className="flex justify-between items-center mt-6 pt-4 border-t border-[#3B2B20]/10">
-                  <span className="text-[#3B2B20]/70 text-sm truncate max-w-[200px]">{item.description}</span>
+                <div className="flex justify-between items-center mt-auto pt-4 border-t border-[#3B2B20]/10">
+                  <span className="text-[#3B2B20]/70 text-sm truncate max-w-[150px] md:max-w-[200px]" title={item.description}>{item.description}</span>
                   <span className="text-2xl font-bold text-[#3B2B20]">${item.price.toFixed(2)}</span>
                 </div>
               </div>

@@ -1,88 +1,153 @@
 {
   "categories": [
     {
-      "name": "Signatures",
+      "name": "Espresso",
       "items": [
         {
-          "id": "sig-01",
-          "name": "Einspanner Latte",
-          "description": "Our highly recommended signature drink with a rich cream top.",
-          "price": 6.50,
-          "tags": [
-            "Popular",
-            "Cold"
-          ]
+          "id": "esp-01",
+          "name": "Doppio",
+          "description": "Double shot of espresso",
+          "price": 3.75,
+          "tags": ["Hot"]
         },
         {
-          "id": "sig-02",
-          "name": "Cold Brew",
-          "description": "Steeped for 24 hours for a smooth, bold flavor.",
-          "price": 5.00,
-          "tags": [
-            "Cold"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Classics",
-      "items": [
-        {
-          "id": "cla-01",
-          "name": "Flat White",
-          "description": "Smooth espresso with microfoam milk.",
-          "price": 4.50,
-          "tags": [
-            "Hot"
-          ]
-        },
-        {
-          "id": "cla-02",
-          "name": "Cortado",
-          "description": "Equal parts espresso and steamed milk.",
+          "id": "esp-02",
+          "name": "Americano",
+          "description": "Espresso with water",
           "price": 4.00,
-          "tags": [
-            "Hot"
-          ]
+          "tags": ["Hot", "Cold"]
         },
         {
-          "id": "cla-03",
-          "name": "Espresso",
-          "description": "Double shot of our seasonal blend.",
-          "price": 3.50,
-          "tags": [
-            "Hot"
-          ]
+          "id": "esp-03",
+          "name": "Cortado",
+          "description": "Equal parts espresso and milk",
+          "price": 4.75,
+          "tags": ["Hot"]
         },
         {
-          "id": "cla-04",
-          "name": "Latte",
-          "description": "Espresso with steamed milk and a light layer of foam.",
+          "id": "esp-04",
+          "name": "Cappuccino",
+          "description": "Milk foam poured over espresso - served hot",
           "price": 5.00,
-          "tags": [
-            "Hot",
-            "Cold"
-          ]
+          "tags": ["Hot"]
+        },
+        {
+          "id": "esp-05",
+          "name": "Flat White",
+          "description": "Steamed milk poured over espresso - served hot",
+          "price": 5.00,
+          "tags": ["Hot"]
+        },
+        {
+          "id": "esp-06",
+          "name": "Latte",
+          "description": "Blend of milk and espresso",
+          "price": 5.50,
+          "tags": ["Hot", "Cold"]
+        },
+        {
+          "id": "esp-07",
+          "name": "Mocha",
+          "description": "Blend of milk, premium cacao, and espresso",
+          "price": 6.50,
+          "tags": ["Hot", "Cold"]
         }
       ]
     },
     {
-      "name": "Food & Bites",
+      "name": "Brewed",
       "items": [
         {
-          "id": "food-01",
-          "name": "Daily Pastries",
-          "description": "A rotating selection of croissants, muffins, and cookies.",
-          "price": 4.50,
-          "tags": [
-            "Fresh"
-          ]
+          "id": "brw-01",
+          "name": "Drip",
+          "description": "Freshly brewed Colombian blend",
+          "price": 3.75,
+          "tags": ["Hot"]
+        },
+        {
+          "id": "brw-02",
+          "name": "Cold Brew",
+          "description": "Slow-steeped for 15 hours for a bold, smooth taste",
+          "price": 5.50,
+          "tags": ["Cold"]
+        }
+      ]
+    },
+    {
+      "name": "Herbal & Cacao",
+      "items": [
+        {
+          "id": "hbc-01",
+          "name": "Assorted Tea",
+          "description": "Black, green, floral",
+          "price": 3.75,
+          "tags": ["Hot", "Cold"]
+        },
+        {
+          "id": "hbc-02",
+          "name": "Matcha Latte",
+          "description": "Hand whisked matcha mixed with milk",
+          "price": 6.00,
+          "tags": ["Hot", "Cold"]
+        },
+        {
+          "id": "hbc-03",
+          "name": "Chai Latte",
+          "description": "Spice-infused black tea blended with milk",
+          "price": 5.75,
+          "tags": ["Hot", "Cold"]
+        },
+        {
+          "id": "hbc-04",
+          "name": "Hot Chocolate",
+          "description": "Rich, velvety cacao whisked to order, mixed with milk",
+          "price": 5.00,
+          "tags": ["Hot"]
+        }
+      ]
+    },
+    {
+      "name": "Options",
+      "items": [
+        {
+          "id": "opt-01",
+          "name": "Extra Shot",
+          "description": "Add a shot of caffeine...",
+          "price": 1.50,
+          "tags": []
+        },
+        {
+          "id": "opt-02",
+          "name": "Milk Options",
+          "description": "Oat, Almond, Breve, Au Lait",
+          "price": 0.75,
+          "tags": []
+        },
+        {
+          "id": "opt-03",
+          "name": "Flavors",
+          "description": "Vanilla, Caramel",
+          "price": 0.50,
+          "tags": []
+        },
+        {
+          "id": "opt-04",
+          "name": "Over Ice",
+          "description": "Served over ice",
+          "price": 0.25,
+          "tags": []
         }
       ]
     }
   ],
   "modifiers": [
-    "Oat Milk (+ $1.00)",
-    "Decaf (Free)"
+    "Oat Milk (+ $0.75)",
+    "Almond Milk (+ $0.75)",
+    "Breve (+ $0.75)",
+    "Au Lait (+ $0.75)",
+    "Extra Shot (+ $1.50)",
+    "Vanilla Flavor (+ $0.50)",
+    "Caramel Flavor (+ $0.50)",
+    "Over Ice (+ $0.25)"
   ]
 }
