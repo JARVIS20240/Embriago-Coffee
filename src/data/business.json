@@ -1,0 +1,56 @@
+{
+  "name": "Embriago Coffee",
+  "tagline": "Your Cozy Corner on Rivington.",
+  "subtext": "Serving exceptional coffee and warm vibes in the Lower East Side.",
+  "address": {
+    "street": "5 Rivington St",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10002",
+    "country": "United States",
+    "plusCode": "P2C4+GR New York, USA",
+    "mapUrl": "https://maps.app.goo.gl/Ao9g6Zvp87YNs4y8A",
+    "coordinates": {
+      "lat": 40.7212926,
+      "lng": -73.9929505
+    }
+  },
+  "hours": {
+    "timezone": "Europe/London",
+    "schedule": {
+      "1": { "open": "07:00", "close": "17:00", "display": "7:00 AM - 5:00 PM" },
+      "2": { "open": "07:00", "close": "17:00", "display": "7:00 AM - 5:00 PM" },
+      "3": { "open": "07:00", "close": "17:00", "display": "7:00 AM - 5:00 PM" },
+      "4": { "open": "07:00", "close": "17:00", "display": "7:00 AM - 5:00 PM" },
+      "5": { "open": "07:00", "close": "17:00", "display": "7:00 AM - 5:00 PM" },
+      "6": { "open": "08:00", "close": "18:00", "display": "8:00 AM - 6:00 PM" },
+      "0": { "open": "08:00", "close": "18:00", "display": "8:00 AM - 6:00 PM" }
+    }
+  },
+  "reviews": {
+    "rating": 4.9,
+    "count": 417,
+    "featured": [
+      {
+        "id": "rev-1",
+        "text": "A very cozy coffee shop with a pleasant atmosphere and excellent service.",
+        "author": "Local Guide"
+      },
+      {
+        "id": "rev-2",
+        "text": "Classy joint, good place to sit outside & enjoy a cold brew on a warm day.",
+        "author": "Google Reviewer"
+      },
+      {
+        "id": "rev-3",
+        "text": "Highly recommend the einspanner latte which is delicious.",
+        "author": "Coffee Enthusiast"
+      },
+      {
+        "id": "rev-4",
+        "text": "The table by the window is perfect for people watching.",
+        "author": "Neighborhood Regular"
+      }
+    ]
+  }
+}

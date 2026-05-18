@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-warm-crema: #F9F6F0;
+  --color-espresso-brown: #3B2B20;
+  --color-macchiato: #6B5A4E;
+  --color-gold-amber: #D4A373;
+
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-inter);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-warm-crema);
+    color: var(--color-espresso-brown);
+    font-family: var(--font-sans);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
+
+@layer utilities {
+  .animate-marquee {
+    animation: marquee 20s linear infinite;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
