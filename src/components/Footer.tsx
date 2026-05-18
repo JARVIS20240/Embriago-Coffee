@@ -3,17 +3,17 @@ import FooterHours from "./FooterHours";
 export default function Footer() {
   return (
     <footer id="location" className="bg-[#F9F6F0] text-[#3B2B20] pt-24 px-4 overflow-hidden">
-      
+
       {/* Stay Connected Card */}
       <div className="max-w-5xl mx-auto bg-[#a69b8d] rounded-[3rem] p-12 md:p-20 text-center mb-24 shadow-sm">
         <h2 className="text-4xl md:text-6xl font-serif text-[#F9F6F0] font-bold mb-8">Stay Connected</h2>
-        <div className="max-w-md mx-auto flex flex-col sm:flex-row gap-2 sm:bg-[#F9F6F0]/20 sm:p-2 sm:rounded-full backdrop-blur-sm sm:border sm:border-[#F9F6F0]/30">
-          <input 
-            type="email" 
-            placeholder="Enter your email..." 
-            className="flex-grow bg-[#F9F6F0]/20 sm:bg-transparent px-6 py-3 text-[#F9F6F0] placeholder-[#F9F6F0]/70 outline-none rounded-full text-center sm:text-left border border-[#F9F6F0]/30 sm:border-none w-full"
+        <div className="max-w-md mx-auto flex gap-2 bg-[#F9F6F0]/20 p-2 rounded-full backdrop-blur-sm border border-[#F9F6F0]/30">
+          <input
+            type="email"
+            placeholder="Enter your email..."
+            className="flex-grow bg-transparent px-6 py-3 text-[#F9F6F0] placeholder-[#F9F6F0]/70 outline-none rounded-full"
           />
-          <button className="bg-[#3B2B20] text-[#F9F6F0] px-8 py-3 rounded-full font-bold hover:bg-[#3B2B20]/80 transition-colors w-full sm:w-auto mt-2 sm:mt-0">
+          <button className="bg-[#3B2B20] text-[#F9F6F0] px-8 py-3 rounded-full font-bold hover:bg-[#3B2B20]/80 transition-colors">
             Subscribe
           </button>
         </div>
@@ -34,9 +34,9 @@ export default function Footer() {
             {businessData.address.street},<br />
             {businessData.address.city}, {businessData.address.state} {businessData.address.zip}
           </p>
-          <a 
+          <a
             href={businessData.address.mapUrl}
-            target="_blank" 
+            target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-3 bg-[#D4A373] text-[#3B2B20] rounded-full font-medium text-sm hover:bg-[#D4A373]/90 transition-colors shadow-sm"
           >

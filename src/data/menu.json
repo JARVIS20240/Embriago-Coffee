@@ -8,14 +8,19 @@
           "name": "Einspanner Latte",
           "description": "Our highly recommended signature drink with a rich cream top.",
           "price": 6.50,
-          "tags": ["Popular", "Cold"]
+          "tags": [
+            "Popular",
+            "Cold"
+          ]
         },
         {
           "id": "sig-02",
           "name": "Cold Brew",
           "description": "Steeped for 24 hours for a smooth, bold flavor.",
           "price": 5.00,
-          "tags": ["Cold"]
+          "tags": [
+            "Cold"
+          ]
         }
       ]
     },
@@ -27,28 +32,37 @@
           "name": "Flat White",
           "description": "Smooth espresso with microfoam milk.",
           "price": 4.50,
-          "tags": ["Hot"]
+          "tags": [
+            "Hot"
+          ]
         },
         {
           "id": "cla-02",
           "name": "Cortado",
           "description": "Equal parts espresso and steamed milk.",
           "price": 4.00,
-          "tags": ["Hot"]
+          "tags": [
+            "Hot"
+          ]
         },
         {
           "id": "cla-03",
           "name": "Espresso",
           "description": "Double shot of our seasonal blend.",
           "price": 3.50,
-          "tags": ["Hot"]
+          "tags": [
+            "Hot"
+          ]
         },
         {
           "id": "cla-04",
           "name": "Latte",
           "description": "Espresso with steamed milk and a light layer of foam.",
           "price": 5.00,
-          "tags": ["Hot", "Cold"]
+          "tags": [
+            "Hot",
+            "Cold"
+          ]
         }
       ]
     },
@@ -60,10 +74,15 @@
           "name": "Daily Pastries",
           "description": "A rotating selection of croissants, muffins, and cookies.",
           "price": 4.50,
-          "tags": ["Fresh"]
+          "tags": [
+            "Fresh"
+          ]
         }
       ]
     }
   ],
-  "modifiers": ["Oat Milk (+ $1.00)", "Decaf (Free)"]
+  "modifiers": [
+    "Oat Milk (+ $1.00)",
+    "Decaf (Free)"
+  ]
 }
